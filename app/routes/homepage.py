@@ -1,4 +1,4 @@
-from flask import Flask, render_template, make_response,request, Blueprint
+from flask import render_template, make_response,request, Blueprint
 from database.database import mysql
 import datetime
 import socket
