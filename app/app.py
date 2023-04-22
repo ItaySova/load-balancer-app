@@ -1,20 +1,22 @@
 from flask import Flask, render_template, make_response,request
 from flask_mysqldb import MySQL
+from routes.count import bp as count
+from routes.homepage import bp as home
 import datetime
 import os
 import logging
 import socket
-
-app = Flask(__name__)
+from database.database import app, mysql
+# app = Flask(__name__)
 
 logging.basicConfig(filename='./logs/record.log', level=logging.DEBUG, format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
 
-app.config['MYSQL_HOST'] = os.environ['MYSQL_HOST']
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = os.environ['MYSQL_PASSWORD']
-app.config['MYSQL_DB'] = "dockertrial"
+# app.config['MYSQL_HOST'] = os.environ['MYSQL_HOST']
+# app.config['MYSQL_USER'] = 'root'
+# app.config['MYSQL_PASSWORD'] = os.environ['MYSQL_PASSWORD']
+# app.config['MYSQL_DB'] = "dockertrial"
 
-mysql = MySQL(app)
+# mysql = MySQL(app)
 
 @app.route("/")
 def home():
@@ -35,13 +37,8 @@ def home():
     return res
 
 
-@app.route("/showcount")
-def show_count():
-    cursor = mysql.connection.cursor()
-    cursor.execute(''' SELECT value FROM global_counter ''')
-    data = cursor.fetchone()
-    cursor.close()
-    return 'count: ' + str(data[0])
+app.register_blueprint(home)
+app.register_blueprint(count)
 
 
 if __name__ == '__main__':
