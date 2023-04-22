@@ -1,0 +1,61 @@
+# Build image + create container + start it:
+# docker-compose up
+
+# Same, but detached VS Code terminal:
+# docker-compose up -d
+
+# Same, but build image even if exists:
+# docker-compose up -d --build
+
+# Stop and delete containers:
+# docker-compose down
+
+version: '3'
+services:
+  Database:
+    # Database image name: 
+    image: database:1.0
+    # Build image from Dockerfile location:
+    build: ./database
+    # Container name: 
+    container_name: database-container
+    # Port binding:
+    ports:
+      - 3306:3306
+    # Evironment Variables used inside database:
+    environment:
+      - MYSQL_HOST=localhost # Internally for the container.
+      - MYSQL_DATABASE=dockertrial
+      - MYSQL_PASSWORD="Ponomarov2k!"
+      - MYSQL_ROOT_PASSWORD="Ponomarov2k!" # Needed by MySQL image.
+    # Named Volume for persisting the data:
+    volumes: 
+      - app-db:/var/lib/mysql
+      - db-logs:/var/log
+  app1:
+    image: test-app1-image:1.0
+    build: ./app
+    environment:
+      - MYSQL_HOST=Database
+      - MYSQL_DATABASE=dockertrial
+      - MYSQL_PASSWORD="Ponomarov2k!"
+      - MYSQL_ROOT_PASSWORD="Ponomarov2k!"
+    volumes:
+      - app-logs:/app/logs
+      - ./app:/app
+    depends_on:
+      - Database
+  nginx:
+    build: ./nginx 
+    ports:
+    - "80:80"
+    depends_on:
+      - app1
+      - Database
+
+
+# # List all your Named Volumes here:
+volumes:
+  app-logs:
+  app-db:
+  db-logs:
