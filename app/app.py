@@ -29,7 +29,7 @@ def home():
         print("can't insert into table - please try again")
     mysql.connection.commit()
     cursor.close()
-    res = make_response(render_template("index.html", com_ip=local_ip))
+    res = make_response(render_template("index.html", com_ip=local_ip, remote_ip = rem_ip))
     res.set_cookie('internal_ip', local_ip, 300)
     return res
 
