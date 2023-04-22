@@ -3,9 +3,9 @@ from database.database import mysql
 import datetime
 import socket
 
-bp = Blueprint('/home', __name__)
+bp = Blueprint('/', __name__)
 
-@bp.route("/home")
+@bp.route("/")
 def home():
     rem_ip = request.remote_addr
     time = datetime.datetime.now()
