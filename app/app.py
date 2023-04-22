@@ -30,8 +30,8 @@ def home():
     mysql.connection.commit()
     cursor.close()
     res = make_response(render_template("index.html", com_ip=local_ip, remote_ip = rem_ip))
-    res.set_cookie('internal_ip', local_ip, 300)
-    res.set_cookie('test', local_ip, 180)
+    res.set_cookie('internal_ip', local_ip, 30)
+    # res.set_cookie('remote_ip', rem_ip, 30)
     return res
 
 
