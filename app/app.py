@@ -1,5 +1,3 @@
-from flask import Flask, render_template, make_response,request
-from flask_mysqldb import MySQL
 from routes.count import bp as count
 from routes.homepage import bp as home
 import logging
