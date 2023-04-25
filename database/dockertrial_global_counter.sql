@@ -35,7 +35,7 @@ CREATE TABLE `global_counter` (
 
 LOCK TABLES `global_counter` WRITE;
 /*!40000 ALTER TABLE `global_counter` DISABLE KEYS */;
-INSERT INTO `global_counter` VALUES (1,12);
+INSERT INTO `global_counter` VALUES (1,0);
 /*!40000 ALTER TABLE `global_counter` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
