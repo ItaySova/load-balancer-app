@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,23 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='table_style.css') }}">
 </head>
+
 <body>
     <table>
         <tr>
-          <th>log id</th>
-          <th>date_time</th>
-          <th>client_ip</th>
-          <th>internal_ip</th>
+            {% for header in headings %}
+            <th>{{ header }}</th>
+            {% endfor %}
         </tr>
         <br>
+        {% for row in data %}
         <tr>
-          <td>{{log_id}}</td>
-          <td>{{date_time}}</td>
-          <td>{{client_ip}}</td>
-          <td>{{internal_ip}}</td>
+            {% for cell in row %}
+            <td>{{ cell }}</td>
+            {% endfor %}
         </tr>
-      </table>      
+        {% endfor %}
+    </table>
 </body>
+
 </html>
