@@ -1,4 +1,4 @@
-from flask import render_template, make_response,request, Blueprint
+from flask import render_template, make_response,request, Blueprint, redirect
 from database.database import mysql
 
 bp = Blueprint('/logs', __name__)
@@ -11,10 +11,8 @@ def logs():
         cursor.execute(''' SELECT * FROM access_log ''')
         data = cursor.fetchall()
         cursor.close()
-        headings =("log id", "date_time", "client_ip", "internal_ip")
+        headings = ("log id", "date_time", "client_ip", "internal_ip")
         res = make_response(render_template("logs.html", headings=headings, data = data))
-        # res = make_response(render_template("logs.html", log_id=data[0], date_time = data[1], client_ip=data[2] , internal_ip=data[3]))
-        # res = f'data retrieved, response type {(data)}'
         return res
     else:
-        pass
+        return redirect('/')
