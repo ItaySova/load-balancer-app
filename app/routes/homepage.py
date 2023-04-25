@@ -12,12 +12,9 @@ def home():
     local_ip = socket.gethostbyname(socket.gethostname())
     cursor = mysql.connection.cursor()
     cursor.execute(''' UPDATE global_counter SET value=value + 1 ''')
-    try:
-        cursor.execute(''' INSERT INTO access_log VALUES(%s,%s,%s) ''',(time, rem_ip,local_ip))
-    except:
-        print("can't insert into table - please try again")
+    cursor.execute(''' INSERT INTO access_log (date_time,client_ip,internal_ip) VALUES(%s,%s,%s) ''',(time, rem_ip,local_ip))
     mysql.connection.commit()
     cursor.close()
     res = make_response(render_template("index.html", com_ip=local_ip, remote_ip = rem_ip))
-    res.set_cookie('internal_ip', local_ip, 30)
+    res.set_cookie('internal_ip', local_ip, 120)
     return res
