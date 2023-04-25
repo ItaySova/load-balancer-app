@@ -9,9 +9,11 @@ def logs():
     if request.method == 'GET':
         cursor = mysql.connection.cursor()
         cursor.execute(''' SELECT * FROM access_log ''')
-        data = cursor.fetchone()
+        data = cursor.fetchall()
         cursor.close()
-        res = make_response(render_template("logs.html", log_id=data[0], date_time = data[1], client_ip=data[2] , internal_ip=data[3]))
+        headings =("log id", "date_time", "client_ip", "internal_ip")
+        res = make_response(render_template("logs.html", headings=headings, data = data))
+        # res = make_response(render_template("logs.html", log_id=data[0], date_time = data[1], client_ip=data[2] , internal_ip=data[3]))
         # res = f'data retrieved, response type {(data)}'
         return res
     else:
