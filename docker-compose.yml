@@ -26,8 +26,8 @@ services:
     environment:
       - MYSQL_HOST=localhost # Internally for the container.
       - MYSQL_DATABASE=dockertrial
-      - MYSQL_PASSWORD="Ponomarov2k!"
-      - MYSQL_ROOT_PASSWORD="Ponomarov2k!" # Needed by MySQL image.
+      - MYSQL_PASSWORD="testpass!"
+      - MYSQL_ROOT_PASSWORD="testpass!" # Needed by MySQL image.
     # Named Volume for persisting the data:
     volumes: 
       - app-db:/var/lib/mysql
@@ -38,8 +38,8 @@ services:
     environment:
       - MYSQL_HOST=Database
       - MYSQL_DATABASE=dockertrial
-      - MYSQL_PASSWORD="Ponomarov2k!"
-      - MYSQL_ROOT_PASSWORD="Ponomarov2k!"
+      - MYSQL_PASSWORD="testpass!"
+      - MYSQL_ROOT_PASSWORD="testpass!"
     volumes:
       - ./app/logs:/app/logs
       - ./app:/app
