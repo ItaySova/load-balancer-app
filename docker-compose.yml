@@ -41,7 +41,7 @@ services:
       - MYSQL_PASSWORD="Ponomarov2k!"
       - MYSQL_ROOT_PASSWORD="Ponomarov2k!"
     volumes:
-      - app-logs:/app/logs
+      - ./app/logs:/app/logs
       - ./app:/app
     depends_on:
       - Database

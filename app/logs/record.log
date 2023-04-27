@@ -1,0 +1,296 @@
+2023-04-26 10:38:12,083 INFO database.database MainThread : hello world
+2023-04-26 10:38:12,093 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.32.3:8000
+2023-04-26 10:38:12,094 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-04-26 10:38:12,097 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 10:38:12,307 INFO database.database MainThread : hello world
+2023-04-26 10:38:12,317 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 10:38:12,318 INFO werkzeug MainThread :  * Debugger PIN: 110-166-464
+2023-04-26 10:38:12,588 INFO database.database MainThread : hello world
+2023-04-26 10:38:12,599 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.32.4:8000
+2023-04-26 10:38:12,599 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-04-26 10:38:12,603 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 10:38:12,841 INFO database.database MainThread : hello world
+2023-04-26 10:38:12,850 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 10:38:12,851 INFO werkzeug MainThread :  * Debugger PIN: 647-941-356
+2023-04-26 10:38:13,035 INFO database.database MainThread : hello world
+2023-04-26 10:38:13,047 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.32.5:8000
+2023-04-26 10:38:13,047 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-04-26 10:38:13,051 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 10:38:13,280 INFO database.database MainThread : hello world
+2023-04-26 10:38:13,286 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 10:38:13,287 INFO werkzeug MainThread :  * Debugger PIN: 967-735-125
+2023-04-26 10:38:13,499 INFO database.database MainThread : hello world
+2023-04-26 10:38:13,509 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.32.6:8000
+2023-04-26 10:38:13,509 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-04-26 10:38:13,513 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 10:38:13,749 INFO database.database MainThread : hello world
+2023-04-26 10:38:13,757 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 10:38:13,758 INFO werkzeug MainThread :  * Debugger PIN: 495-969-690
+2023-04-26 10:38:13,917 INFO database.database MainThread : hello world
+2023-04-26 10:38:13,931 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.32.7:8000
+2023-04-26 10:38:13,931 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-04-26 10:38:13,934 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 10:38:14,223 INFO database.database MainThread : hello world
+2023-04-26 10:38:14,231 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 10:38:14,232 INFO werkzeug MainThread :  * Debugger PIN: 279-391-042
+2023-04-26 10:38:29,461 INFO werkzeug Thread-2 : 192.168.32.8 - - [26/Apr/2023 10:38:29] "GET / HTTP/1.0" 200 -
+2023-04-26 10:38:29,498 INFO werkzeug Thread-3 : 192.168.32.8 - - [26/Apr/2023 10:38:29] "[36mGET /static/styles.css HTTP/1.0[0m" 304 -
+2023-04-26 10:38:31,714 INFO werkzeug Thread-4 : 192.168.32.8 - - [26/Apr/2023 10:38:31] "GET / HTTP/1.0" 200 -
+2023-04-26 10:38:31,743 INFO werkzeug Thread-5 : 192.168.32.8 - - [26/Apr/2023 10:38:31] "[36mGET /static/styles.css HTTP/1.0[0m" 304 -
+2023-04-26 10:38:32,194 INFO werkzeug Thread-6 : 192.168.32.8 - - [26/Apr/2023 10:38:32] "GET / HTTP/1.0" 200 -
+2023-04-26 10:38:32,217 INFO werkzeug Thread-7 : 192.168.32.8 - - [26/Apr/2023 10:38:32] "[36mGET /static/styles.css HTTP/1.0[0m" 304 -
+2023-04-26 10:38:38,105 INFO werkzeug Thread-8 : 192.168.32.8 - - [26/Apr/2023 10:38:38] "GET /showcount HTTP/1.0" 200 -
+2023-04-26 10:38:44,545 INFO werkzeug Thread-9 : 192.168.32.8 - - [26/Apr/2023 10:38:44] "GET /logs HTTP/1.0" 200 -
+2023-04-26 10:38:44,572 INFO werkzeug Thread-10 : 192.168.32.8 - - [26/Apr/2023 10:38:44] "[36mGET /static/table_style.css HTTP/1.0[0m" 304 -
+2023-04-26 10:39:14,208 INFO database.database MainThread : hello world
+2023-04-26 10:39:14,220 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.48.3:8000
+2023-04-26 10:39:14,221 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-04-26 10:39:14,225 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 10:39:14,498 INFO database.database MainThread : hello world
+2023-04-26 10:39:14,505 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 10:39:14,506 INFO werkzeug MainThread :  * Debugger PIN: 938-577-431
+2023-04-26 10:39:14,618 INFO database.database MainThread : hello world
+2023-04-26 10:39:14,629 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.48.4:8000
+2023-04-26 10:39:14,630 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-04-26 10:39:14,634 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 10:39:14,902 INFO database.database MainThread : hello world
+2023-04-26 10:39:14,912 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 10:39:14,962 INFO werkzeug MainThread :  * Debugger PIN: 913-963-216
+2023-04-26 10:39:15,109 INFO database.database MainThread : hello world
+2023-04-26 10:39:15,120 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.48.5:8000
+2023-04-26 10:39:15,120 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-04-26 10:39:15,124 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 10:39:15,357 INFO database.database MainThread : hello world
+2023-04-26 10:39:15,368 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 10:39:15,369 INFO werkzeug MainThread :  * Debugger PIN: 304-830-472
+2023-04-26 10:39:15,591 INFO database.database MainThread : hello world
+2023-04-26 10:39:15,603 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.48.6:8000
+2023-04-26 10:39:15,604 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-04-26 10:39:15,607 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 10:39:15,828 INFO database.database MainThread : hello world
+2023-04-26 10:39:15,837 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 10:39:15,838 INFO werkzeug MainThread :  * Debugger PIN: 128-974-936
+2023-04-26 10:39:16,067 INFO database.database MainThread : hello world
+2023-04-26 10:39:16,078 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.48.7:8000
+2023-04-26 10:39:16,079 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-04-26 10:39:16,083 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 10:39:16,346 INFO database.database MainThread : hello world
+2023-04-26 10:39:16,355 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 10:39:16,355 INFO werkzeug MainThread :  * Debugger PIN: 321-553-127
+2023-04-26 10:40:48,632 INFO werkzeug Thread-2 : 192.168.48.8 - - [26/Apr/2023 10:40:48] "GET / HTTP/1.0" 200 -
+2023-04-26 10:40:48,661 INFO werkzeug Thread-3 : 192.168.48.8 - - [26/Apr/2023 10:40:48] "[36mGET /static/styles.css HTTP/1.0[0m" 304 -
+2023-04-26 10:40:49,343 INFO werkzeug Thread-4 : 192.168.48.8 - - [26/Apr/2023 10:40:49] "GET / HTTP/1.0" 200 -
+2023-04-26 10:40:49,365 INFO werkzeug Thread-5 : 192.168.48.8 - - [26/Apr/2023 10:40:49] "[36mGET /static/styles.css HTTP/1.0[0m" 304 -
+2023-04-26 10:40:53,979 INFO werkzeug Thread-6 : 192.168.48.8 - - [26/Apr/2023 10:40:53] "GET /showcount HTTP/1.0" 200 -
+2023-04-26 10:40:55,837 INFO werkzeug Thread-7 : 192.168.48.8 - - [26/Apr/2023 10:40:55] "GET /showcount HTTP/1.0" 200 -
+2023-04-26 10:40:58,559 INFO werkzeug Thread-8 : 192.168.48.8 - - [26/Apr/2023 10:40:58] "GET /logs HTTP/1.0" 200 -
+2023-04-26 10:40:58,581 INFO werkzeug Thread-9 : 192.168.48.8 - - [26/Apr/2023 10:40:58] "[36mGET /static/table_style.css HTTP/1.0[0m" 304 -
+2023-04-26 10:41:05,363 INFO werkzeug Thread-10 : 192.168.48.8 - - [26/Apr/2023 10:41:05] "GET /showcount HTTP/1.0" 200 -
+2023-04-26 10:42:22,684 INFO werkzeug Thread-11 : 192.168.48.8 - - [26/Apr/2023 10:42:22] "GET /showcount HTTP/1.0" 200 -
+2023-04-26 10:42:27,177 INFO werkzeug Thread-12 : 192.168.48.8 - - [26/Apr/2023 10:42:27] "GET /logs HTTP/1.0" 200 -
+2023-04-26 10:42:27,212 INFO werkzeug Thread-13 : 192.168.48.8 - - [26/Apr/2023 10:42:27] "[36mGET /static/table_style.css HTTP/1.0[0m" 304 -
+2023-04-26 10:42:27,897 INFO werkzeug Thread-14 : 192.168.48.8 - - [26/Apr/2023 10:42:27] "GET /logs HTTP/1.0" 200 -
+2023-04-26 10:42:27,931 INFO werkzeug Thread-15 : 192.168.48.8 - - [26/Apr/2023 10:42:27] "[36mGET /static/table_style.css HTTP/1.0[0m" 304 -
+2023-04-26 10:42:30,205 INFO werkzeug Thread-16 : 192.168.48.8 - - [26/Apr/2023 10:42:30] "GET / HTTP/1.0" 200 -
+2023-04-26 10:42:30,228 INFO werkzeug Thread-17 : 192.168.48.8 - - [26/Apr/2023 10:42:30] "[36mGET /static/styles.css HTTP/1.0[0m" 304 -
+2023-04-26 10:42:30,804 INFO werkzeug Thread-18 : 192.168.48.8 - - [26/Apr/2023 10:42:30] "GET / HTTP/1.0" 200 -
+2023-04-26 10:42:30,824 INFO werkzeug Thread-19 : 192.168.48.8 - - [26/Apr/2023 10:42:30] "[36mGET /static/styles.css HTTP/1.0[0m" 304 -
+2023-04-26 10:42:31,618 INFO werkzeug Thread-20 : 192.168.48.8 - - [26/Apr/2023 10:42:31] "GET / HTTP/1.0" 200 -
+2023-04-26 10:42:31,652 INFO werkzeug Thread-21 : 192.168.48.8 - - [26/Apr/2023 10:42:31] "[36mGET /static/styles.css HTTP/1.0[0m" 304 -
+2023-04-26 10:42:34,005 INFO werkzeug Thread-22 : 192.168.48.8 - - [26/Apr/2023 10:42:34] "GET /showcount HTTP/1.0" 200 -
+2023-04-26 10:42:36,809 INFO werkzeug Thread-23 : 192.168.48.8 - - [26/Apr/2023 10:42:36] "GET /logs HTTP/1.0" 200 -
+2023-04-26 10:42:36,836 INFO werkzeug Thread-24 : 192.168.48.8 - - [26/Apr/2023 10:42:36] "[36mGET /static/table_style.css HTTP/1.0[0m" 304 -
+2023-04-26 15:05:19,681 INFO database.database MainThread : hello world
+2023-04-26 15:05:19,690 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.96.3:8000
+2023-04-26 15:05:19,690 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-04-26 15:05:19,694 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:05:19,973 INFO database.database MainThread : hello world
+2023-04-26 15:05:19,982 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 15:05:20,057 INFO werkzeug MainThread :  * Debugger PIN: 529-332-261
+2023-04-26 15:05:20,126 INFO database.database MainThread : hello world
+2023-04-26 15:05:20,139 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.96.4:8000
+2023-04-26 15:05:20,139 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-04-26 15:05:20,143 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:05:20,367 INFO database.database MainThread : hello world
+2023-04-26 15:05:20,375 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 15:05:20,376 INFO werkzeug MainThread :  * Debugger PIN: 108-969-992
+2023-04-26 15:05:20,617 INFO database.database MainThread : hello world
+2023-04-26 15:05:20,626 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.96.5:8000
+2023-04-26 15:05:20,627 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-04-26 15:05:20,630 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:05:20,851 INFO database.database MainThread : hello world
+2023-04-26 15:05:20,861 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 15:05:20,861 INFO werkzeug MainThread :  * Debugger PIN: 620-085-363
+2023-04-26 15:05:21,072 INFO database.database MainThread : hello world
+2023-04-26 15:05:21,083 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.96.6:8000
+2023-04-26 15:05:21,083 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-04-26 15:05:21,087 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:05:21,328 INFO database.database MainThread : hello world
+2023-04-26 15:05:21,340 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 15:05:21,397 INFO werkzeug MainThread :  * Debugger PIN: 873-899-419
+2023-04-26 15:05:21,484 INFO database.database MainThread : hello world
+2023-04-26 15:05:21,495 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.96.7:8000
+2023-04-26 15:05:21,495 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-04-26 15:05:21,499 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:05:21,748 INFO database.database MainThread : hello world
+2023-04-26 15:05:21,756 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 15:05:21,757 INFO werkzeug MainThread :  * Debugger PIN: 129-318-580
+2023-04-26 15:05:26,843 INFO werkzeug Thread-2 : 192.168.96.8 - - [26/Apr/2023 15:05:26] "GET / HTTP/1.0" 200 -
+2023-04-26 15:05:26,890 INFO werkzeug Thread-3 : 192.168.96.8 - - [26/Apr/2023 15:05:26] "[36mGET /static/styles.css HTTP/1.0[0m" 304 -
+2023-04-26 15:05:29,227 INFO werkzeug Thread-4 : 192.168.96.8 - - [26/Apr/2023 15:05:29] "[36mGET /static/styles.css HTTP/1.0[0m" 304 -
+2023-04-26 15:05:46,272 INFO werkzeug Thread-5 : 192.168.96.8 - - [26/Apr/2023 15:05:46] "GET / HTTP/1.0" 200 -
+2023-04-26 15:05:46,298 INFO werkzeug Thread-6 : 192.168.96.8 - - [26/Apr/2023 15:05:46] "[36mGET /static/styles.css HTTP/1.0[0m" 304 -
+2023-04-26 15:06:54,287 INFO werkzeug Thread-7 : 192.168.96.8 - - [26/Apr/2023 15:06:54] "GET / HTTP/1.0" 200 -
+2023-04-26 15:06:54,317 INFO werkzeug Thread-8 : 192.168.96.8 - - [26/Apr/2023 15:06:54] "[36mGET /static/styles.css HTTP/1.0[0m" 304 -
+2023-04-26 15:07:16,285 INFO werkzeug Thread-9 : 192.168.96.8 - - [26/Apr/2023 15:07:16] "GET /showcount HTTP/1.0" 200 -
+2023-04-26 15:11:57,035 INFO werkzeug MainThread :  * Detected change in '/app/app.py', reloading
+2023-04-26 15:11:57,041 INFO werkzeug MainThread :  * Detected change in '/app/app.py', reloading
+2023-04-26 15:11:57,042 INFO werkzeug MainThread :  * Detected change in '/app/app.py', reloading
+2023-04-26 15:11:57,042 INFO werkzeug MainThread :  * Detected change in '/app/app.py', reloading
+2023-04-26 15:11:57,085 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:11:57,086 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:11:57,095 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:11:57,095 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:11:57,102 INFO werkzeug MainThread :  * Detected change in '/app/app.py', reloading
+2023-04-26 15:11:57,127 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:11:57,322 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 15:11:57,322 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 15:11:57,322 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 15:11:57,322 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 15:11:57,322 INFO werkzeug MainThread :  * Debugger PIN: 129-318-580
+2023-04-26 15:11:57,322 INFO werkzeug MainThread :  * Debugger PIN: 873-899-419
+2023-04-26 15:11:57,322 INFO werkzeug MainThread :  * Debugger PIN: 620-085-363
+2023-04-26 15:11:57,323 INFO werkzeug MainThread :  * Debugger PIN: 529-332-261
+2023-04-26 15:11:57,374 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 15:11:57,374 INFO werkzeug MainThread :  * Debugger PIN: 108-969-992
+2023-04-26 15:13:32,910 INFO werkzeug MainThread :  * Detected change in '/app/database/database.py', reloading
+2023-04-26 15:13:32,914 INFO werkzeug MainThread :  * Detected change in '/app/database/database.py', reloading
+2023-04-26 15:13:32,930 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:13:32,935 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:13:33,150 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 15:13:33,150 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 15:13:33,151 INFO werkzeug MainThread :  * Debugger PIN: 620-085-363
+2023-04-26 15:13:33,151 INFO werkzeug MainThread :  * Debugger PIN: 108-969-992
+2023-04-26 15:13:33,210 INFO werkzeug MainThread :  * Detected change in '/app/database/database.py', reloading
+2023-04-26 15:13:33,214 INFO werkzeug MainThread :  * Detected change in '/app/database/database.py', reloading
+2023-04-26 15:13:33,233 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:13:33,238 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:13:33,271 INFO werkzeug MainThread :  * Detected change in '/app/database/database.py', reloading
+2023-04-26 15:13:33,292 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:13:33,482 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 15:13:33,483 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 15:13:33,483 INFO werkzeug MainThread :  * Debugger PIN: 873-899-419
+2023-04-26 15:13:33,483 INFO werkzeug MainThread :  * Debugger PIN: 129-318-580
+2023-04-26 15:13:33,554 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 15:13:33,555 INFO werkzeug MainThread :  * Debugger PIN: 529-332-261
+2023-04-26 15:13:38,790 INFO werkzeug Thread-2 : 192.168.96.8 - - [26/Apr/2023 15:13:38] "GET / HTTP/1.0" 200 -
+2023-04-26 15:13:38,818 INFO werkzeug Thread-3 : 192.168.96.8 - - [26/Apr/2023 15:13:38] "[36mGET /static/styles.css HTTP/1.0[0m" 304 -
+2023-04-26 15:13:40,164 INFO werkzeug Thread-4 : 192.168.96.8 - - [26/Apr/2023 15:13:40] "GET / HTTP/1.0" 200 -
+2023-04-26 15:13:40,187 INFO werkzeug Thread-5 : 192.168.96.8 - - [26/Apr/2023 15:13:40] "[36mGET /static/styles.css HTTP/1.0[0m" 304 -
+2023-04-26 15:14:02,134 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.112.3:8000
+2023-04-26 15:14:02,134 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-04-26 15:14:02,138 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:14:02,421 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 15:14:02,425 INFO werkzeug MainThread :  * Debugger PIN: 101-134-997
+2023-04-26 15:14:02,616 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.112.4:8000
+2023-04-26 15:14:02,617 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-04-26 15:14:02,622 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:14:02,887 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 15:14:02,897 INFO werkzeug MainThread :  * Debugger PIN: 573-589-699
+2023-04-26 15:14:03,061 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.112.5:8000
+2023-04-26 15:14:03,062 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-04-26 15:14:03,065 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:14:03,312 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 15:14:03,397 INFO werkzeug MainThread :  * Debugger PIN: 849-558-441
+2023-04-26 15:14:03,510 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.112.6:8000
+2023-04-26 15:14:03,510 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-04-26 15:14:03,515 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:14:03,741 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 15:14:03,742 INFO werkzeug MainThread :  * Debugger PIN: 517-719-867
+2023-04-26 15:14:03,993 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.112.7:8000
+2023-04-26 15:14:03,993 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-04-26 15:14:03,997 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:14:04,228 WARNING werkzeug MainThread :  * Debugger is active!
+2023-04-26 15:14:04,229 INFO werkzeug MainThread :  * Debugger PIN: 321-144-580
+2023-04-26 15:15:42,396 INFO werkzeug Thread-2 : 192.168.112.8 - - [26/Apr/2023 15:15:42] "GET / HTTP/1.0" 200 -
+2023-04-26 15:15:42,424 INFO werkzeug Thread-3 : 192.168.112.8 - - [26/Apr/2023 15:15:42] "[36mGET /static/styles.css HTTP/1.0[0m" 304 -
+2023-04-26 15:15:44,589 INFO werkzeug Thread-4 : 192.168.112.8 - - [26/Apr/2023 15:15:44] "GET / HTTP/1.0" 200 -
+2023-04-26 15:15:44,619 INFO werkzeug Thread-5 : 192.168.112.8 - - [26/Apr/2023 15:15:44] "[36mGET /static/styles.css HTTP/1.0[0m" 304 -
+2023-04-26 15:15:49,843 INFO werkzeug Thread-6 : 192.168.112.8 - - [26/Apr/2023 15:15:49] "GET /showcount HTTP/1.0" 200 -
+2023-04-26 15:15:54,475 INFO werkzeug Thread-7 : 192.168.112.8 - - [26/Apr/2023 15:15:54] "GET /logs HTTP/1.0" 200 -
+2023-04-26 15:15:54,500 INFO werkzeug Thread-8 : 192.168.112.8 - - [26/Apr/2023 15:15:54] "[36mGET /static/table_style.css HTTP/1.0[0m" 304 -
+2023-04-26 15:17:27,282 INFO werkzeug MainThread :  * Detected change in '/app/app.py', reloading
+2023-04-26 15:17:27,285 INFO werkzeug MainThread :  * Detected change in '/app/app.py', reloading
+2023-04-26 15:17:27,285 INFO werkzeug MainThread :  * Detected change in '/app/app.py', reloading
+2023-04-26 15:17:27,286 INFO werkzeug MainThread :  * Detected change in '/app/app.py', reloading
+2023-04-26 15:17:27,287 INFO werkzeug MainThread :  * Detected change in '/app/app.py', reloading
+2023-04-26 15:17:27,331 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:17:27,339 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:17:27,340 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:17:27,344 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:17:27,345 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:18:28,915 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:18:28,920 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:18:28,928 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:18:28,929 INFO werkzeug MainThread :  * Restarting with stat
+2023-04-26 15:18:28,933 INFO werkzeug MainThread :  * Restarting with stat

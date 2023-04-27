@@ -6,7 +6,6 @@ from database.database import app
 
 # logging.basicConfig(filename='./logs/record.log', level=logging.DEBUG, format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
 logging.basicConfig(level=logging.DEBUG)
-app.logger.info("hello world")
 
 app.register_blueprint(home)
 app.register_blueprint(count)
